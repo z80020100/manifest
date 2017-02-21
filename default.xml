@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="origin"
+           fetch="." />
+  <default revision="master"
+           remote="origin"
+           sync-j="4" />
+
+  <project path="Thesis/PDSE_with_Small_Leakage" name="PDSE_with_Small_Leakage" />
+  <project path="Thesis/SUISE" name="SUISE" />
+  <project path="Thesis/DSEE_Kamara_Version" name="DSEE_Kamara_Version" />
+  <project path="Thesis/Blind_Storage" name="Blind_Storage" />
+
+</manifest>
