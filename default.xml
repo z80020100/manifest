@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <!-- the name and URL of git remote -->
+  <!-- If you use "repo init -u git@github.com:z80020100/manifest",
+       implied fetch="git@github.com:z80020100/" for fetch="." -->
   <remote  name="origin"
            fetch="." />
+
+  <!-- set default remote and default branch -->
   <default revision="master"
            remote="origin"
            sync-j="4" />
 
+  <!-- path: clone path of local directory name, name: to generate git URL -->
+  <!-- If name="SUISE", implied git URL is "git@github.com:z80020100/SUISE" -->
   <project path="Thesis/PDSE_with_Small_Leakage" name="PDSE_with_Small_Leakage" />
   <project path="Thesis/SUISE" name="SUISE" />
   <project path="Thesis/DSEE_Kamara_Version" name="DSEE_Kamara_Version" />
